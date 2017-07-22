@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Booking</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+	.jumbotron-special-special {
+    position: relative;
+    background: #000 url("recep.jpg") center center;
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    }
+	.jumbotron-special-special-special {position: relative;
+    background: #000 url("dmond.jpg") center center;
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;}
+	 
+    </style>
+  </head>
+  <body>
+    
+     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+       <div class="container">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">La Casa</a>
+          </div>
+          <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>       
+            <li><a href="about.html">About</a></li>
+         
+      <li><a href="Food.html">Food</a></li>
+      <li><a href="rates.html">Rates</a></li>
+      <li><a href="amenities.html">Amenities</a></li>
+      <li><a href="special.html">Special Offers</a></li>
+                <li><a href="UniqueExperiences.html">Unique Experiences</a></li>
+
+        </div><!--/.nav-collapse -->
+       </div>
+    </div>
+
+      <div class="container">
+    <div class="jumbotron text-center jumbotron-special-special">
+      <h1>Book Now</h1>
+      <p>For an experience that you would never forget</p>
+
+  
+    <div class="jumbotron-special-special-special jspec">
+    <p> </p>
+<div class="jmbospec"> 
+<p style="color:white"> Check in: </p>
+
+<input type="date" id="myDate" value="2014-02-09">
+<p></p>
+
+<p style="color:white"> Check out: </p>
+
+<input type="date" id="myDate1" value="2014-02-09">
+
+<p>  </p>
+<div class="form-group">
+  <p style="color:white"> Room Details: </p>
+
+  <select class="form-control" id="sel1">
+    <option>Platinum Suiet (2 King sized beds)</option>
+    <option>Diamond Suiet(1 King sized bed)</option>
+    <option>Gold Suiet(2 Queen sized beds)</option>
+    <option>Suiet(1 Queen sized bed)</option>
+  </select>
+</div>
+<a href="#" class="btn btn-info" onclick="myFunc1();">Book</a>
+<script type="text/javascript">
+
+function myFunc1(){
+  var x=document.getElementById("myDate1");
+  var y=document.getElementById("myDate");
+ if(x.value==y.value)
+ {
+  alert("Your check in and check out date is the same");
+  
+ }
+ else{
+  window.open("confirm.html");
+
+ }
+}
+
+
+</script>
+<p></p>
+
+</div>
+<p></p>
+
+
+
+    </div>
+
+  
+      
+    </div>
+  </div>  
+  <style>
+		.jumbotron-special-special{color:white;}
+    .jmbospec{color:black;}
+   // rit{position:absolute;
+   // left:400px;
+   // top:300px;}
+  //.ru{position:absolute;
+  //  left:400px;
+  //  top:260px;
+  //  font-size:20px;
+  //  color:black;}
+ // .runa{position:absolute;
+  //    left: 1000px;
+  //    top:300px;
+  //    font-size:}
+  //  .ou{position:absolute;
+   //   left:1000px;
+   //   top:260px;
+   //   font-size:20px;
+   //   color:black;
+   //   }
+
+  </style>
+  
+ 
+ 
+
+
+        
+    <!-- Fixed footer -->
+    <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+      <div class="container">
+        <div class="navbar-text pull-left">
+          <p>© 2015 La Casa</p>
+        </div>
+        
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>="navigation">
+      <div class="container">
+        <div class="navbar-text pull-left">
+          <p>© 2015 La Casa</p>
+        </div>
+        
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

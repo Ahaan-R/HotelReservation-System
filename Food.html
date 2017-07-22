@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Food Menu</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+	.jumbotron-special-special {
+    position: relative;
+    background: #000 url("food.jpg") center center;
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+	color:black;
+    }
+	
+	 
+    </style>
+  </head>
+  <body>
+    
+
+ 
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+       <div class="container">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">La Casa</a>
+          </div>
+          <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>       
+            <li><a href="about.html">About</a></li>
+         
+      <li class="active"><a href="Food.html">Food</a></li>
+      <li><a href="rates.html">Rates</a></li>
+      <li><a href="amenities.html">Amenities</a></li>
+      <li><a href="special.html">Special Offers</a></li>
+                <li><a href="UniqueExperiences.html">Unique Experiences</a></li>
+
+        </div><!--/.nav-collapse -->
+       </div>
+    </div>
+     
+      <div class="container">
+    <div class="jumbotron text-center jumbotron-special-special">
+      <h1>For Food Lovers. </h1>
+      <p>Whats on the cards </p>
+      
+    </div>
+  </div>  
+  <style>
+  .xyz{color:blue;
+		font-size:25px;
+		position:absolute;
+		left:500px;
+		top:300px;}
+	.ui{position:absolute;
+		left:500px;
+		top:400px;}
+	.yu{position:absolute;
+		left:500px;
+		top:360px;
+		font-size:25px;
+		color:yellow;}
+		.po{position:absolute;
+			left:500px;
+			top:700px;
+			right:990px;
+			font-size:15px;
+			color:Darkblack;
+			}
+		.pi{position:absolute;
+			left:500px;
+			top:800px;
+			font-size:25px;
+			color:yellow;}
+			.kl{position:absolute;
+				left:500px;
+				top:850px;}
+			.pu{position:absolute;
+				left:500px;
+				top:1150px;
+				right:990px;
+				font-size:15px;
+				}
+			.oi{position:absolute;
+			left:500px;
+			top:1200px;
+			font-size:25px;
+			color:yellow;}
+			.ty{position:absolute;
+				left:500px;
+				top:1250px;}
+				.ru{position:absolute;
+					left:500px;
+					top:1550px;
+					right:990px;
+					font-size:15px;
+					}
+				.e{position:absolute;
+			left:500px;
+			top:1650px;
+			font-size:25px;
+			color:yellow;}
+			.jk{position:absolute;
+				left:500px;
+				top:1700px;
+				}
+			.u{position:absolute;
+				left:500px;
+				right:990px;
+				top:2200px;
+				font-size:15px;}
+				
+				
+				
+			
+  </style>
+  
+  <p class = "xyz"> Our Top Healthy Recipes </p>
+  <div class = "yu">
+  Chicken Pan Surprise.
+  </div>
+  <div class = "ui">
+  <img onmouseover = "MyOverFunction()" onmouseout = "MyOutFunction()"src="chicken.jpg" style ="width:600px; height:300px">
+  
+  </div>
+  <p id ="demo" class = "po"> </p>
+  <div class = "pi">
+  Pan-Roasted Butternut Squash
+  </div>
+  <div class = "kl">
+ <img onmouseover = "MyOverFunction2()" onmouseout = "MyOutFunction2()" src = "Butternut.jpg" style = "width:600px;height:300px">
+  </div>
+  <p id = "demo1" class = "pu"> </p>
+  <div class = "oi">
+  Creamy Lemon Squares
+  </div>
+  <div class = "ty">
+  <img onmouseover = "MyOverFunction3()" onmouseout = "MyOutFunction3()" src = "Lemon.jpg" style = "width:600px; height:300px">
+  </div>
+  <p id = "demo2" class = "ru"> </p>
+  <div class = "e">
+  Brocolli Pomegranate Salad
+  </div>
+  <div class = "jk">
+  <img onmouseover = "MyOverFunction4()" onmouseout = "MyOutFunction4()" src = "Brocolli.jpg" style = "width:600px; height:300px">
+  </div>
+  <p id = "demo3" class = "u"> </p>
+  <script>
+  function MyOverFunction()
+  {
+	document.getElementById("demo").innerHTML = "No need to dirty lots of pots and pans to make this chicken Provençal. Get out your favorite skillet and prepare to make something awesome." 
+	
+
+  }
+  function MyOutFunction()
+  {
+	document.getElementById("demo").innerHTML = ""
+  }
+  function MyOverFunction2()
+  {
+	document.getElementById("demo1").innerHTML = "A quick toss in vinaigrette and a sprinkle of Parmesan helps give this Pan-Roasted Butternut Squash its distinctive flavor"
+  }
+  function MyOutFunction2()
+  {
+	document.getElementById("demo1").innerHTML =""
+  }
+  function MyOverFunction3()
+  {
+	document.getElementById("demo2").innerHTML = "Lemon, show us your sunny pop of color and your intense burst of flavor. Where would we, and these better-for-you creamy squares, be without you?"
+	
+	}
+  function MyOutFunction3()
+  {
+	document.getElementById("demo2").innerHTML = ""
+	}
+	function MyOverFunction4()
+	{
+	document.getElementById("demo3").innerHTML = "This may be the prettiest broccoli salad you'll ever make—as well as the most delicious—thanks to red-skinned pears, red onions and pomegranate seeds."
+	}
+	function MyOutFunction4()
+	{
+	document.getElementById("demo3").innerHTML = ""
+	}
+	
+  
+  </script>
+  
+  
+  
+  
+  
+  
+ 
+ 
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+     
+ 
+
+        
+    <!-- Fixed footer -->
+    <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+      <div class="container">
+        <div class="navbar-text pull-left">
+          <p>© 2015 La Casa</p>
+        </div>
+        
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>iv class="container">
+        <div class="navbar-text pull-left">
+          <p>© 2015 La Casa</p>
+        </div>
+        
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
